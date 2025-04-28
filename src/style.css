@@ -1,0 +1,30 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 425px) {
+
+    .header {
+        text-align: center;
+        background-color: rgb(78, 146, 209);
+    }
+    .header .minha-foto {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-top: 20px;
+        border: 5px solid rgb(48, 48, 175);
+        border-radius: 50%;
+    }
+
+    .header h1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .seta {
+        height: 24px;
+        width: 24px;
+        padding: 3%;
+    }
+}
